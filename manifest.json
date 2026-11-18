@@ -1,94 +1,94 @@
 {
-    "schema":  1,
-    "name":  "RYL1 Installer",
-    "updated":  "2026-11-18",
-    "files":  {
-                  "database_original":  {
-                                            "file":  "Database_Original.zip",
-                                            "size":  1089219,
-                                            "sha256":  "adcbf3e3b8b88ebaecbb71e41abc5e3e4db7a83257d1e8eceb21bc24cdf2fd5a",
-                                            "extract":  true,
-                                            "host":  "gdrive",
-                                            "url":  "https://drive.google.com/uc?export=download&id=PENDING"
-                                        },
-                  "database_starter":  {
-                                           "file":  "Database_Starter.zip",
-                                           "size":  1085540,
-                                           "sha256":  "d26c018cb8912d6348e42cb1a9ab1377ee7bc533817726f3e3e8253e21a925a5",
-                                           "extract":  true,
-                                           "host":  "gdrive",
-                                           "url":  "https://drive.google.com/uc?export=download&id=PENDING"
-                                       },
-                  "server_v600":  {
-                                      "file":  "Server_V600.zip",
-                                      "size":  6479475,
-                                      "sha256":  "1c4b7b73a22ad6b57b6b8561521e1702d58c32bf91039a65c87fcea65441ec5a",
-                                      "extract":  true,
-                                      "host":  "gdrive",
-                                      "url":  "https://drive.google.com/uc?export=download&id=PENDING"
-                                  },
-                  "server_v600_lohan":  {
-                                            "file":  "Server_V600_Lohan.zip",
-                                            "size":  6732706,
-                                            "sha256":  "8b92235d078ab7bad2876e90b56590b83d508e8efd6efbc5627698a6d9763b12",
-                                            "extract":  true,
-                                            "host":  "gdrive",
-                                            "url":  "https://drive.google.com/uc?export=download&id=PENDING"
-                                        },
-                  "client_patch":  {
-                                       "file":  "ClientPatch_v600.zip",
-                                       "size":  52795699,
-                                       "sha256":  "c05b8a9386b9cc2174a3dfad5630b06c49f97613260eee4566fd1d4bfa14af3e",
-                                       "extract":  true,
-                                       "host":  "gdrive",
-                                       "url":  "https://drive.google.com/uc?export=download&id=PENDING"
-                                   },
-                  "client_login_template":  {
-                                                "file":  "Client_LoginTemplate.zip",
-                                                "size":  292207,
-                                                "sha256":  "2ad97ac74f0afa0a91e9133c3ddca2831f009cfcb6dbc5d3618cdc4e36f8a470",
-                                                "extract":  true,
-                                                "host":  "gdrive",
-                                                "url":  "https://drive.google.com/uc?export=download&id=PENDING"
-                                            },
-                  "client_exe":  {
-                                     "file":  "Client.exe",
-                                     "size":  2767360,
-                                     "sha256":  "7c88c1a1aa9c1c8e3013c0f11c3127add7f22a8d271b030d58ac384fcb23a7ff",
-                                     "extract":  false,
-                                     "host":  "github",
-                                     "url":  "https://raw.githubusercontent.com/santoso1003/RYLFiles/main/Client.exe"
-                                 },
-                  "game_installer":  {
-                                         "file":  "RYL V557.exe",
-                                         "size":  616292289,
-                                         "sha256":  "a0189605a8c18f3873be3e82e96ee6c5eea538e83530abded77fa7299fca5e35",
-                                         "extract":  false,
-                                         "host":  "user_supplied",
-                                         "url":  "",
-                                         "note":  "Official RYL V557 installer - user supplies it, or host on GitHub Release / R2 later"
-                                     }
-              },
-    "variants":  {
-                     "V600":  {
-                                  "label":  "V600",
-                                  "server":  "server_v600",
-                                  "config":  "DemonSetup.ini"
-                              },
-                     "V600_Lohan":  {
-                                        "label":  "V600 + Battle Lohan",
-                                        "server":  "server_v600_lohan",
-                                        "config":  "LohanSetup.ini"
-                                    }
-                 },
-    "databases":  {
-                      "Original":  "database_original",
-                      "Starter":  "database_starter"
-                  },
-    "client":  {
-                   "installer":  "game_installer",
-                   "patch":  "client_patch",
-                   "exe":  "client_exe",
-                   "login_template":  "client_login_template"
-               }
+  "schema": 1,
+  "name": "RYL1 Installer",
+  "updated": "2026-11-18",
+  "files": {
+    "database_original": {
+      "file": "Database_Original.zip",
+      "size": 1089219,
+      "sha256": "adcbf3e3b8b88ebaecbb71e41abc5e3e4db7a83257d1e8eceb21bc24cdf2fd5a",
+      "extract": true,
+      "host": "gdrive",
+      "url": "https://drive.google.com/uc?export=download&id=1ug9IRyigAHYFXc6coDLNQTYA1ZdUFgBa"
+    },
+    "database_starter": {
+      "file": "Database_Starter.zip",
+      "size": 1085540,
+      "sha256": "d26c018cb8912d6348e42cb1a9ab1377ee7bc533817726f3e3e8253e21a925a5",
+      "extract": true,
+      "host": "gdrive",
+      "url": "https://drive.google.com/uc?export=download&id=1EOEe2xa5xOg7u8_zQqPShPRogyM29Nav"
+    },
+    "server_v600": {
+      "file": "Server_V600.zip",
+      "size": 6479475,
+      "sha256": "1c4b7b73a22ad6b57b6b8561521e1702d58c32bf91039a65c87fcea65441ec5a",
+      "extract": true,
+      "host": "gdrive",
+      "url": "https://drive.google.com/uc?export=download&id=1lJBaEWkinstHhXd51miQaEhBbxa8gp6k"
+    },
+    "server_v600_lohan": {
+      "file": "Server_V600_Lohan.zip",
+      "size": 6732706,
+      "sha256": "8b92235d078ab7bad2876e90b56590b83d508e8efd6efbc5627698a6d9763b12",
+      "extract": true,
+      "host": "gdrive",
+      "url": "https://drive.google.com/uc?export=download&id=1tCa_1CnCvvnAsasVLl84nfZl56YPazcv"
+    },
+    "client_patch": {
+      "file": "ClientPatch_v600.zip",
+      "size": 52795699,
+      "sha256": "c05b8a9386b9cc2174a3dfad5630b06c49f97613260eee4566fd1d4bfa14af3e",
+      "extract": true,
+      "host": "gdrive",
+      "url": "https://drive.google.com/uc?export=download&id=10SE6Txf__zUGZgygX7K8XDghGSwJzMG9"
+    },
+    "client_login_template": {
+      "file": "Client_LoginTemplate.zip",
+      "size": 292207,
+      "sha256": "2ad97ac74f0afa0a91e9133c3ddca2831f009cfcb6dbc5d3618cdc4e36f8a470",
+      "extract": true,
+      "host": "gdrive",
+      "url": "https://drive.google.com/uc?export=download&id=1RiHkhDsD6cKSY2Bg1vZygjvIvkAG4CD_"
+    },
+    "client_exe": {
+      "file": "Client.exe",
+      "size": 2767360,
+      "sha256": "7c88c1a1aa9c1c8e3013c0f11c3127add7f22a8d271b030d58ac384fcb23a7ff",
+      "extract": false,
+      "host": "github",
+      "url": "https://raw.githubusercontent.com/santoso1003/RYLFiles/main/Client.exe"
+    },
+    "game_installer": {
+      "file": "RYL V557.exe",
+      "size": 616292289,
+      "sha256": "a0189605a8c18f3873be3e82e96ee6c5eea538e83530abded77fa7299fca5e35",
+      "extract": false,
+      "host": "user_supplied",
+      "url": "",
+      "note": "Official RYL V557 installer - user supplies it"
+    }
+  },
+  "variants": {
+    "V600": {
+      "label": "V600",
+      "server": "server_v600",
+      "config": "DemonSetup.ini"
+    },
+    "V600_Lohan": {
+      "label": "V600 + Battle Lohan",
+      "server": "server_v600_lohan",
+      "config": "LohanSetup.ini"
+    }
+  },
+  "databases": {
+    "Original": "database_original",
+    "Starter": "database_starter"
+  },
+  "client": {
+    "installer": "game_installer",
+    "patch": "client_patch",
+    "exe": "client_exe",
+    "login_template": "client_login_template"
+  }
 }
